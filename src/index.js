@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Child from './Child';
+import Heading from './Heading';
 
 ReactDOM.render(
   <React.StrictMode>
   <div>
-    <App />,
+  <App />,
+  <Heading />,
     <Child />
     </div>
       </React.StrictMode>,
