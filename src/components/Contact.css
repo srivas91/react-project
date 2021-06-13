@@ -1,0 +1,31 @@
+h3
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    color:blue;
+}
+input[type="text"]
+{
+   border-radius: 10px;
+   height:20px;
+   padding-left:10px;
+}
+input[type="email"]
+{
+   border-radius: 10px;
+   height:20px;
+   padding-left:10px;
+}
+textarea
+{
+    border-radius: 20px;
+    width:300px;
+}
+
+h4{
+    color:white;
+}
+#mycontact
+{
+    margin-left: 700px;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Services.css';
 class Services extends React.Component {
     constructor(props) {
         super(props);
@@ -11,8 +12,11 @@ class Services extends React.Component {
     render() {
         return (
             <div>
-                <h4>{this.state.one}</h4>
-                <h4>{this.state.two}</h4>
+            Services Offered:
+            <ol>
+                <li>{this.state.one}</li>
+                <li>{this.state.two}</li>
+                </ol>
             </div>
         );
     }
