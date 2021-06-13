@@ -6,26 +6,41 @@ h3
 }
 input[type="text"]
 {
+    margin-left:50px;
    border-radius: 10px;
    height:20px;
    padding-left:10px;
 }
 input[type="email"]
 {
+    margin-left:50px;
    border-radius: 10px;
    height:20px;
    padding-left:10px;
 }
 textarea
 {
+    padding-left: 10px;
+    margin-left:40px;
     border-radius: 20px;
-    width:300px;
+    width:180px
 }
 
 h4{
-    color:white;
+    text-align: center;
+    color:red;
 }
-#mycontact
+.mycontact
 {
-    margin-left: 700px;
+    margin-left:300px;
+    width:300px;
+    height:300px;
+    background:linear-gradient(to right,blue,green);
+    /* clip-path:circle(10px at 0 10px); */
+    /* clip-path:circle(5% at 70px 70px); */
+}
+*
+{
+    padding:0;
+    margin:0;
 }
