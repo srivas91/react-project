@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Child from './Child';
 import Heading from './Heading';
+import MyChat from './components/MyChat';
 
 ReactDOM.render(
   <React.StrictMode>
   <div>
   <App />,
   <Heading />,
-    <Child />
+    <Child />,
+    <MyChat />
     </div>
       </React.StrictMode>,
   document.getElementById('root')
