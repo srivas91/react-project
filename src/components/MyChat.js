@@ -3,6 +3,7 @@ function MyChat(){
   return (
     <div>
     <ChatBot
+    // speechSynthesis={{ enable: true, lang: 'en' }}
   steps={[
     {
       id: '1',
@@ -17,7 +18,17 @@ function MyChat(){
     {
       id: '3',
       message: 'Hi {previousValue}, nice to meet you!',
-      end: true,
+      trigger:'4',
+    },
+    {
+      id: '4',
+      message:'What is your age?',
+      trigger:'5',
+    },
+    {
+      id: '5',
+      user:true,
+      end:true,
     },
   ]}
 />
